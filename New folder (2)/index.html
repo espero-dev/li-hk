@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p class="name">1</p>
+    <button onclick="document.querySelector('.name').innerText = parseInt(document.querySelector('.name').innerText) + 1;" class="blue">Blue</button>
+    <a onclick="if (parseInt(document.querySelector('.name').innerText) >= 100) {
+                window.location.href = 'upgrade.html';
+                }"><button class="orange">Upgrade</button></a>
+  </body>
+</html>
